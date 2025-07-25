@@ -1,0 +1,27 @@
+
+        body{
+            /* background: linear-gradient(blue, orange); */
+            /* Background: linear-gradient(rgb(104, 63, 154), orange); */
+            background-image: url(tanziro.webp);
+            background: linear-gradient();
+            Background-repeat: no-repeat;
+            Background-attachment:fixed;
+            background-position: center; 
+            background-size: cover;
+
+        }
+        h1{
+            color: aliceblue;
+        }
+        p{
+            color: blanchedalmond;
+        }
+        #p1{
+            color: rgb(17, 202, 202);
+        }
+        #p2{
+            color: rgb(168, 202, 17);
+        }
+        #p3{
+            color: rgb(202, 116, 17);
+        }
