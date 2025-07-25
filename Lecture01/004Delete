@@ -1,0 +1,22 @@
+create database Leetcode1280;
+use Leetcode1280;
+
+Create table Examinations (student_id int, subject_name varchar(20));
+
+insert into Examinations (student_id, subject_name) values ('1', 'Math');
+insert into Examinations (student_id, subject_name) values ('1', 'Physics');
+insert into Examinations (student_id, subject_name) values ('1', 'Programming');
+insert into Examinations (student_id, subject_name) values ('2', 'Programming');
+insert into Examinations (student_id, subject_name) values ('1', 'Physics');
+insert into Examinations (student_id, subject_name) values ('1', 'Math');
+insert into Examinations (student_id, subject_name) values ('13', 'Math');
+insert into Examinations (student_id, subject_name) values ('13', 'Programming');
+insert into Examinations (student_id, subject_name) values ('13', 'Physics');
+insert into Examinations (student_id, subject_name) values ('2', 'Math');
+insert into Examinations (student_id, subject_name) values ('1', 'Math');
+
+select * from Examinations;
+
+delete from Examinations;
+truncate Examinations;
+drop database Leetcode1280;
