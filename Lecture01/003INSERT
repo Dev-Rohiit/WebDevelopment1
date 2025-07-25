@@ -1,0 +1,8 @@
+Create table Students (student_id int, student_name varchar(20));
+Create table Subjects (subject_name varchar(20));
+Create table Examinations (student_id int, subject_name varchar(20));
+Truncate table Students;
+insert into Students (student_id, student_name) values ('1', 'Alice');
+insert into Students (student_id, student_name) values ('2', 'Bob');
+insert into Students (student_id, student_name) values ('13', 'John');
+insert into Students (student_id, student_name) values ('6', 'Alex');
