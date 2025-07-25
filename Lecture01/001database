@@ -1,1 +1,4 @@
-
+//how to create database
+create database SAGE;
+//after creating the database
+use sage;
