@@ -1,0 +1,23 @@
+Syntax: CREATE TABLE<Table_name>(Details(datatype),…….);
+
+CREATE TABLE EMPLOYEE(Emp_Name(varchar) NOT NULL , Emp_id(Number), Address(varchar), salary(numeric) check>=30000 )
+
+\\Constraint: We have 7 constraint in SQL while creating a table.
+
+//	1. NOT NULL 
+	2. UNIQUE
+	3. Primary KEY
+	4. Foreign KEY
+	5. CHECK
+	6. Default
+	7. Referential Constraint
+
+
+Example: 
+	Our Requirement- Emp: emp_id(PK),
+				            emp_name(NOT NULL),
+				            job,
+					salary(>=5000),
+					Comission(if not given default 100),
+					Email(unique),
+					 phone(unique)  
